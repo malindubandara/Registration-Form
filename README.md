@@ -107,7 +107,7 @@ POST /api/register
 
 ---
 
-## 🚀 Deployment (Optional)
+## 🚀 Deployment
 
 Watch Live demo - https://remarkable-kulfi-88a680.netlify.app/
 
