@@ -106,13 +106,3 @@ POST /api/register
 - Success modal allows closing and resetting the form
 
 ---
-
-## 🚀 Deployment (Optional)
-
-You can deploy this to Vercel, Netlify, or GitHub Pages for demo purposes.
-
----
-
-## 📬 Contact
-
-For questions, contact the ZDATA team or reach out to \[Your Name].
