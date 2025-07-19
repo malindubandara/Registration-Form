@@ -106,3 +106,9 @@ POST /api/register
 - Success modal allows closing and resetting the form
 
 ---
+
+## 🚀 Deployment (Optional)
+
+Watch Live demo - https://remarkable-kulfi-88a680.netlify.app/
+
+---
