@@ -13,9 +13,10 @@ export const validateStepOne = ({ fullName, email, phone }) => {
     errors.email = 'Email is not valid';
   }
 
-  if (phone && !/^\+?\d{7,15}$/.test(phone)) {
-    errors.phone = 'Phone number is not valid';
+  if (phone && !/^(?:\+94|94|0)(7[0-9]{8})$/.test(phone)) {
+    errors.phone = 'Phone number must be a valid Sri Lankan number';
   }
+
 
   return errors;
 };
