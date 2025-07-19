@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #17cf97;
+      }
+    </style>
+  </defs>
+  <g id="logogram">
+    <path class="cls-1" d="M20,10c0,5.52-4.48,10-10,10H0V10C0,4.48,4.48,0,10,0s10,4.48,10,10Z"/>
+    <path class="cls-1" d="M20,30c0-5.52,4.48-10,10-10h10v10c0,5.52-4.48,10-10,10s-10-4.48-10-10Z"/>
+    <path class="cls-1" d="M0,30c0,5.52,4.48,10,10,10h10v-10c0-5.52-4.48-10-10-10S0,24.48,0,30Z"/>
+    <path class="cls-1" d="M40,10c0-5.52-4.48-10-10-10h-10V10c0,5.52,4.48,10,10,10s10-4.48,10-10Z"/>
+  </g>
+</svg>
