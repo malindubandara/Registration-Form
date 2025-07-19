@@ -1,8 +1,22 @@
-export const validateStepOne = ({ fullName, email }) => {
+import { p } from "framer-motion/client";
+
+export const validateStepOne = ({ fullName, email, phone }) => {
   const errors = {};
-  if (!fullName) errors.fullName = 'Full name is required';
-  if (!email) errors.email = 'Email is required';
-  else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) errors.email = 'Email is not valid';
+
+  if (!fullName) {
+    errors.fullName = 'Full name is required';
+  }
+
+  if (!email) {
+    errors.email = 'Email is required';
+  } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    errors.email = 'Email is not valid';
+  }
+
+  if (phone && !/^\+?\d{7,15}$/.test(phone)) {
+    errors.phone = 'Phone number is not valid';
+  }
+
   return errors;
 };
 
